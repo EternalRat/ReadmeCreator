@@ -1,0 +1,24 @@
+name: Doxygen
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  do_doxygen:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v2
+        with:
+          ref: master
+      - name: Install Doxygen
+        run: sudo apt install doxygen -y && sudo apt install -y graphviz
+      - name: Create doxygen
+        run: doxygen ./doxygen/Doxyfile
+      - name: Upload doxygen doc
+        uses: actions/upload-artifact@v2
+        with:
+          name: Doxygen
+          path: generated_doxygen

@@ -1,0 +1,8 @@
+PROJECT_NAME = Plazza
+INPUT = include
+FILE_PATTERNS = *.hpp *.cpp
+RECURSIVE = YES
+GENERATE_LATEX = NO
+GENERATE_HTML = YES
+HTML_OUTPUT = generated_doxygen
+HTML_FILE_EXTENSION = .html
