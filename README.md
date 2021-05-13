@@ -18,6 +18,6 @@ You just need to clone it using git clone [URL] then you'll just need to go into
 
 ### Authors
 
-[https://github.com/EternalRat](EternalRat)
+[EternalRat](https://github.com/EternalRat)
 
-This README has been made with ReadmeCreator. Here's the repository github : [https://github.com/EternalRat/ReadmeCreator](ReadmeCreator)
+This README has been made with ReadmeCreator. Here's the repository github : [ReadmeCreator](https://github.com/EternalRat/ReadmeCreator)
