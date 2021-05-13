@@ -127,20 +127,19 @@ void ReadmeCreator::dump() const
     cout << "Are those information correct ? Type [y/n]" << endl;
     cout << "--------------------------------------------------" << std::endl;
     cout << "Project name : " << this->_projectName << endl;
-    cout << this->_description << endl;
+    cout << this->_description;
     if (!this->_beforeContinue.empty()) {
-        cout << "Before Continuing : " << this->_beforeContinue << endl;
+        cout << "Before Continuing : " << this->_beforeContinue;
         if (this->_isThereAGif)
             cout << "Gif : Yes" << endl;
         else
             cout << "Gif : No" << endl;
     }
-    cout << "Prerequisites : " << this->_prerequisite << endl;
-    cout << "How to build this program : " << this->_howToBuild << endl;
-    if (!this->_codingStyle.empty()) {
-        cout << "Coding Style : " << this->_codingStyle << endl;
-    }
-    cout << "Authors : " << this->_authors << endl;
+    cout << "Prerequisites : " << this->_prerequisite;
+    cout << "How to build this program : " << this->_howToBuild;
+    if (!this->_codingStyle.empty())
+        cout << "Coding Style : " << this->_codingStyle;
+    cout << "Authors : " << this->_authors;
     cout << "--------------------------------------------------" << std::endl;
 }
 

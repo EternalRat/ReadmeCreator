@@ -24,7 +24,7 @@ int openGithub(void)
 
 int printVersion(void)
 {
-    std::printf("This ReadmeCreator is actually in v1.0.0.\n");
+    std::printf("This ReadmeCreator is actually in v1.1.0.\n");
     return (0);
 }
 
