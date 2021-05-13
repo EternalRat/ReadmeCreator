@@ -119,7 +119,7 @@ void ReadmeCreator::createReadme() const
     }
     readMe << "### Authors" << endl << endl;
     readMe << this->_authors << endl << endl;
-    readMe << "This README has been made with ReadmeCreator. Here's the repository github : [https://github.com/EternalRat/ReadmeCreator](ReadmeCreator)" << endl; 
+    readMe << "This README has been made with ReadmeCreator. Here's the repository github : [ReadmeCreator](https://github.com/EternalRat/ReadmeCreator)" << endl; 
 }
 
 void ReadmeCreator::dump() const
